@@ -51,8 +51,8 @@ export default function Home() {
             title="Our Features"
             description="Explore the services that make us stand out"
             features={[
-              { title: "Cloud Solutions", description: "Scalable and secure cloud services for all your business needs.", icon: "Cloud" },
-              { title: "Cybersecurity", description: "Protect your data with our comprehensive security measures.", icon: "Shield" }
+              { title: "Cloud Solutions", description: "Scalable and secure cloud services for all your business needs.", icon: Cloud },
+              { title: "Cybersecurity", description: "Protect your data with our comprehensive security measures.", icon: Shield }
             ]}
           />
         </div>

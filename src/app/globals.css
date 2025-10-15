@@ -239,8 +239,8 @@
   --width-content-width: var(--width-content-width);
   --width-carousel-padding: var(--width-carousel-padding);
   --width-carousel-padding-controls: var(--width-carousel-padding-controls);
-  --width-carousel-item-3: var(--width-carousel-item-3);
-  --width-carousel-item-4: var(--width-carousel-item-4);
+  --width-carousel-item-3: var(--width-content-width);
+  --width-carousel-item-4: var(--width-content-width);
   --width-x-padding-mask-fade: var(--width-x-padding-mask-fade);
 
   /* gap */
@@ -288,8 +288,6 @@
   --padding-x-6: var(--vw-1_5);
   --padding-x-7: var(--vw-1_75);
   --padding-x-8: var(--vw-2);
-
-  --padding-page-padding: calc(2.25rem+var(--vw-1_5)+var(--vw-1_5));
 
   /* margin */
   --margin-1: var(--vw-0_25);
