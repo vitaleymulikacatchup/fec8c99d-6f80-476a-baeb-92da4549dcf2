@@ -6,6 +6,7 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import FeatureCardTwo from '@/components/sections/feature/FeatureCardTwo';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import { Cloud, Shield } from 'lucide-react';
 
 const assetMap = [
   { "id": "hero-image", "url": "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "A close-up shot of a person coding on a laptop, focusing on the hands and screen." },
