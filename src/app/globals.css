@@ -43,38 +43,7 @@
   --vw-2_75: calc(var(--vw) * 2.75);
   --vw-3: calc(var(--vw) * 3);
 
-  /* width */
-  --width-5: clamp(4rem, 5vw, 6rem);
-  --width-10: clamp(7.5rem, 10vw, 10rem);
-  --width-15: clamp(11.25rem, 15vw, 15rem);
-  --width-17: clamp(12.75rem, 17vw, 17rem);
-  --width-20: clamp(15rem, 20vw, 20rem);
-  --width-21: clamp(15.75rem, 21vw, 21rem);
-  --width-22_5: clamp(16.875rem, 22.5vw, 22.5rem);
-  --width-25: clamp(18.75rem, 25vw, 25rem);
-  --width-26: clamp(19.5rem, 26vw, 26rem);
-  --width-30: clamp(22.5rem, 30vw, 30rem);
-  --width-35: clamp(26.25rem, 35vw, 35rem);
-  --width-40: clamp(30rem, 40vw, 40rem);
-  --width-45: clamp(33.75rem, 45vw, 45rem);
-  --width-50: clamp(37.5rem, 50vw, 50rem);
-  --width-55: clamp(41.25rem, 55vw, 55rem);
-  --width-60: clamp(45rem, 60vw, 60rem);
-  --width-65: clamp(48.75rem, 65vw, 65rem);
-  --width-70: clamp(52.5rem, 70vw, 70rem);
-  --width-75: clamp(56.25rem, 75vw, 75rem);
-  --width-80: clamp(60rem, 80vw, 80rem);
-  --width-85: clamp(63.75rem, 85vw, 85rem);
-  --width-90: clamp(67.5rem, 90vw, 90rem);
-  --width-95: clamp(71.25rem, 95vw, 95rem);
-  --width-100: clamp(75rem, 100vw, 100rem);
-  --width-content-width: clamp(40rem, 80vw, 100rem);
-  --width-carousel-padding: calc((100vw - var(--width-content-width)) / 2 + 1px - var(--vw-1_5);
-  --width-carousel-padding-controls: calc((100vw - var(--width-content-width)) / 2 + 1px);
-  --width-carousel-item-3: calc(var(--width-content-width) / 3 - var(--vw-1_5) / 3 * 2);
-  --width-carousel-item-4: calc(var(--width-content-width) / 4 - var(--vw-1_5) / 4 * 3);
-  --width-x-padding-mask-fade: clamp(1.5rem, 4vw, 4rem);
-
+  /* height */
   --height-4: 1rem;
   --height-5: 1.25rem;
   --height-6: 1.5rem;
@@ -135,7 +104,7 @@
     --width-95: 95vw;
     --width-100: 100vw;
     --width-content-width: 80vw;
-    --width-carousel-padding: calc((100vw - var(--width-content-width)) / 2 + 1px - var(--vw-1_5);
+    --width-carousel-padding: calc((100vw - var(--width-content-width)) / 2 + 1px - var(--vw-1);
     --width-carousel-padding-controls: calc((100vw - var(--width-content-width)) / 2 + 1px);
     --width-carousel-item-3: var(--width-content-width);
     --width-carousel-item-4: var(--width-content-width);
@@ -209,7 +178,7 @@
   --height-140: var(--height-140);
   --height-150: var(--height-150);
 
-  --height-page-padding: calc(2.25rem+var(--vw-1_5)+var(--vw-1_5));
+  --height-page-padding: calc(2.25rem+var(--vw-1)+var(--vw-1));
 
   /* width */
   --width-5: var(--width-5);
@@ -315,7 +284,6 @@
 
   .primary-button {
     @apply bg-gradient-to-b from-primary-cta/83 to-primary-cta;
-    /* background: linear-gradient(rgb(64, 64, 64) 0%, rgb(26, 26, 26) 100%) rgba(0, 0, 0, 0); */
     box-shadow:
       color-mix(in srgb, var(--color-background) 25%, transparent) 0px 1px 1px 0px inset,
       color-mix(in srgb, var(--color-primary-cta) 15%, transparent) 3px 3px 3px 0px;
@@ -370,7 +338,6 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  /* Available fonts: --font-inter-tight, --font-playfair, --font-roboto, --font-open-sans, --font-lato, --font-montserrat, --font-poppins, --font-raleway, --font-ubuntu, --font-nunito */
   font-family: var(--font-inter-tight), sans-serif;
   position: relative;
   min-height: 100vh;
